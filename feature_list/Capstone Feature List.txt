@@ -1,0 +1,82 @@
+﻿This the feature list for my Capstone Project 
+
+
+3 main features:
+1. The stock Questions 
+2. The Stock Suggestion 
+3. The Wishlist 
+
+
+The Stock Questions
+* The questions will be displayed in a predetermined format
+* The answers will be displayed in the form of checkboxes 
+
+
+The Logic:
+* Each answer will be assigned a value of points that will be tracked by certain personality categories 
+   * As of right now, some of them include:
+1. Aggro
+2. The Safe-Bet
+3. All-About-The-Hype
+4. Rebel 
+5.  Mr.Passive
+….and many more to come
+
+
+The Stock Suggestion 
+* This spot in the app will show you what stock you are mostly to buy based off of your personality 
+
+
+The Logic:
+* The personality categories are variables that are tracking the amount of points they are receiving based off of the users’ selections
+* This is where the API call will come in
+   * There will be conditional logic that will check to see which category has the most points
+   * There will be an api response that will then be run that grab either a stock from a certain sector or a pre-called list of stocks **Haven’t decided yet 
+* It will then display a couple things:
+1. The Ticker symbol 
+2. The full name of the stock
+3. A creative description about what we think their personality type is 
+4. More statistics about the stock that was picked like:
+   1.  current closing price, dividend yield, market cap, etc.
+* You will then have the option to either:
+1. Restart the program and try again
+2. Add the stock to a wishlist for later 
+3. Buy the stock 
+* this would send you to a custom page full of referral links and partners where the user could buy the stock
+
+
+________________
+
+
+
+
+**BIG OPTIONAL TICKET**
+* Find a way to get them to play multiple times
+
+
+Diversify
+* Prompt the user to play again but maybe pretend to be someone else like a family member or a close friend 
+* This would allow them to get different outcomes which would in turn help diversify their portfolio
+________________
+
+
+
+
+
+
+The Wishlist / The Portfolio (Maybe)
+* This page of the app shows a list of stocks that are on your wishlist 
+* Here the have the option to:
+1. Remove the stock from the list
+2. Buy the stock which sends them to the same landing page with affiliates links
+3. Learn more about the stock if the information provided wasn’t satisfactory 
+   1. This would sent to a stats site like NASDAQ or Seeking Alpha
+* This may be a cool option if you play the game multiple times to see what you get 
+   * This works if the category selections have multiple stocks in them
+
+
+The Logic 
+* This page will take the ticker symbol and full company name from the suggestion page and place it in the numbered slots 
+   * The numbered slots would appear as stocks are added to the list
+   * The buttons for additional actions will display as well and be functional (their uses are stated above)
+* The final button will take you back to the landing page to play again
