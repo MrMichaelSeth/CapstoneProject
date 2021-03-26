@@ -315,7 +315,8 @@ function displayResult(){
   }
 
   else {
-    document.getElementById('archetype').innerHTML = 'Error: Something went wrong! Refresh and try again!';
+    document.getElementById('archetype').innerHTML = ' 404 Error: Page not found!';
+    document.getElementById('p1').innerHTML = "Please click the try again button!";
   }
 }
 //Get a button to show the answer clicked

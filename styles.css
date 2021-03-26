@@ -1,4 +1,6 @@
-
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
 
 .nav {
     background-color:#333;
@@ -11,10 +13,6 @@
     font-size: .75rem;
 }
 
-/* body {
-    background-image: url("./img/kelvin-zyteng-LMq-rTluKfQ-unsplash.jpg");
-    background-size: 100%;  
-} */
 
 #result {
     display: none;
@@ -22,7 +20,14 @@
 
 #submit {
     width: 25%;
+    margin-left: 29rem;
+    margin-top: 5rem;
 
+}
+
+#retry {
+    width:25%;
+    margin-top: 3rem;
 }
 
 .progress {
@@ -48,5 +53,6 @@ a:hover {
 }
 
 hr {
-    background-color: grey
+    background-color: rgb(160, 160, 160);
+    margin-top: 3rem;
 }
