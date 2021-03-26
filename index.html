@@ -3,12 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>Stock Picker</title>
 
-    <p id=test></p>
-    
+  <!-- Styling -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+  <body>
+    <!-- Main Navigation -->
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quiz.html">Stock Picker</a>
+            </li>
+          </ul>
+          <!-- /Main Nav -->
+
+    <!-- Jumbotron Message -->
+    <div class="container text-center">
+      <div class="jumbotron my-5">
+        <h1 class="display-4">Welcome to the Ultimate Stock Picker</h1>
+        <p class="lead py-4">This is application is a simple quiz that will recommend a stock choice that you are likely to buy according to your personality. You don't need to have any financial knowledge to take quiz!</p>
+        <hr class="my-4">
+      <div class="text-center py-4">
+        <p> Don't take it too seriously and have fun with it!</p>
+        <a class="btn btn-primary btn-lg text-center" href="quiz.html" role="button">Start the quiz!</a>
+      </div>
+    </div>
+    </div>
+    <!-- /Jumbotron Message -->
+
+    <!-- Disclaimer -->
+    <div class="container-fluid mt-5" id="disclaimer">
+      <p>* Disclaimer - All content on this site is provided for informational and entertainment purposes only and is not intended for trading purposes or advice. This site is not liable for any informational errors, incompleteness, or delays, or for any actions taken in reliance on information contained herein.  It is not intended as advice to buy or sell any securities. I am not a registered investment advisor. Please do your own homework and accept full responsibility for any investment decisions you make.</p>
+    </div>
+    <!-- /Disclaimer -->
+
     <script src="stocks.js"></script>
 </body>
 </html>

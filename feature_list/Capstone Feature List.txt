@@ -15,12 +15,21 @@ The Stock Questions
 The Logic:
 * Each answer will be assigned a value of points that will be tracked by certain personality categories 
    * As of right now, some of them include:
-1. Aggro
-2. The Safe-Bet
-3. All-About-The-Hype
-4. Rebel 
-5.  Mr.Passive
-….and many more to come
+
+1. The Hypebeast: Agressive ---> TESLA
+ - In your mind, the world is yours to take and "volatility" is your middle name so it's only right that your company is as aggresive as you are. You probably wouldn't mind being decked out in Supreme or any other luxury brand with a huge logo. 
+
+2. The Vicenarian: Moderate - Aggressive  ---> APPLE
+ - You grew up in that weird space of time where videogames were popular but so was going outside. You've grown up in a world filled that was always on the cutting-edge of technology so it's only right that your stock reflects that.
+
+3. The Millennial: Moderate ---> STARBUCKS
+- The classic millenial: cold-brew coffee, avocado toast and living on your own terms. However, you're getting up there age so it's only right that you invest in the last thing you hold "near-and-dear".
+
+4. The Commoner: Moderate - Conservative ---> JOHNSON & JOHNSON
+- You're not "common" by any means but you may feel like life is starting to slow down; giving you time to realy enjoy it. You need a stock that is strong now but still has plenty of room for growth; just like you.
+
+5. The Boomer: Conservative ---> 3M
+- You feel like life is on cruise control right now and nothing can get you down. You may have more "traditional" views so you should invest in a company that also a long history of good results.
 
 
 The Stock Suggestion 

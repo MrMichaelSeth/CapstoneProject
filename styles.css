@@ -1,0 +1,52 @@
+
+
+.nav {
+    background-color:#333;
+    font-size: 1.5rem;
+    color:coral;
+    padding: 1rem;
+}
+
+.disclaimer {
+    font-size: .75rem;
+}
+
+/* body {
+    background-image: url("./img/kelvin-zyteng-LMq-rTluKfQ-unsplash.jpg");
+    background-size: 100%;  
+} */
+
+#result {
+    display: none;
+}
+
+#submit {
+    width: 25%;
+
+}
+
+.progress {
+    background-color: rgb(109, 109, 109);
+    height: 1.5rem;
+}
+
+a {
+    color: #FCA311
+}
+
+a:hover {
+    color: #fca2117c
+}
+
+.card {
+    border: 2px solid #FCA311;
+}
+
+.jumbotron {
+    border: 5px solid #FCA311;
+    background-color: #ffffff;
+}
+
+hr {
+    background-color: grey
+}
