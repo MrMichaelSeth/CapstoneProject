@@ -123,10 +123,10 @@ function retreiveData(data){
 
 function displayResult(){
 
-  let resultWinner = "";
+  let resultWinner;
   for (const property in questionDataObj){
 
-    if (questionDataObj[property] > resultWinner) {
+    if (resultWinner === undefined || questionDataObj[property] > questionDataObj[resultWinner]) {
       resultWinner = property;
     }
     // if (questionDataObj[property] < resultWinner){
@@ -373,4 +373,16 @@ function showQuestions(){
       for (let i = 0; i < clear6.length; i++){
         clear6[i].checked = false; 
       }
+
+      //Resets Data Object
+      questionDataObj = {
+        'hypebeast': 0,
+        'vicenarian': 0,
+        'millennial': 0,
+        'commoner': 0,
+        'boomer': 0,
+      }
+      
+      //Reset Question Data Array
+      questionData = [];
 }
