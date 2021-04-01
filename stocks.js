@@ -1,21 +1,3 @@
-// var xhr = new XMLHttpRequest ();
-//     xhr.onreadystatechange = function() {
-//       if (xhr.readyState === 4 && xhr.status == 200){
-//         //JSON Parse 
-//        let data = JSON.parse(xhr.responseText);
-//         retreiveData(data);
-//       }
-//     }
-//     xhr.open("GET", "https://www.alphavantage.co/query?function=OVERVIEW&symbol=MMM&apikey=HOQ79Q7MW5T7G7PR");
-//     xhr.send();
-
-
-//   function retreiveData(data){
-//     console.log(data);
-//   }
-
-
-
 //  To Do:
 //Find a way to breakdown the description passed to make it more reader friendly (possibly use a "Read More" or loop thru descript.)
 //Make a function render to show all elements on page 
@@ -89,6 +71,7 @@ function gatherQuestionData(){
     displayResult();
 }
 
+//Tallies how many times the archetype shows in the array and adds value to the object
 function tallyScore(){
 
   for (let i = 0; i < questionData.length; i++){
@@ -110,6 +93,7 @@ function tallyScore(){
   }
 }
 
+//Retreives company data to display once the winner is picked
 function retreiveData(data){
     document.getElementById('ticker').innerHTML = data['Symbol'];
     document.getElementById('name').innerHTML = `(${data['Name']})`;
@@ -121,6 +105,12 @@ function retreiveData(data){
     console.log(data);
 }
 
+//Determines winner, calls the api based on winner, and displays to the page
+
+/* 
+ THIS NEEDS TO BE REFRACTORED IF THERE IS TIME!
+*/
+
 function displayResult(){
 
   let resultWinner;
@@ -129,9 +119,7 @@ function displayResult(){
     if (resultWinner === undefined || questionDataObj[property] > questionDataObj[resultWinner]) {
       resultWinner = property;
     }
-    // if (questionDataObj[property] < resultWinner){
-    //   resultWinner = property;
-    // }
+
     console.log(`the current property is - ${property} : ${questionDataObj[property]}!`);
   }
   console.log(resultWinner)
@@ -374,7 +362,7 @@ function showQuestions(){
         clear6[i].checked = false; 
       }
 
-      //Resets Data Object
+      //Resets Data Object to remove caching
       questionDataObj = {
         'hypebeast': 0,
         'vicenarian': 0,
@@ -383,6 +371,6 @@ function showQuestions(){
         'boomer': 0,
       }
       
-      //Reset Question Data Array
+      //Reset Question Data Array to remove caching 
       questionData = [];
 }
